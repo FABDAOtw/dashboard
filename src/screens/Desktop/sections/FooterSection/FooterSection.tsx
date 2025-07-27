@@ -20,7 +20,7 @@ export const FooterSection = (): JSX.Element => {
   return (
     <footer className="flex flex-col w-full items-center gap-gap-mobile tablet:gap-gap-tablet desktop:gap-8 pt-8 tablet:pt-10 desktop:pt-12 pb-6 tablet:pb-8 px-4 tablet:px-8 desktop:px-10 bg-[#093532]">
       <div className="flex flex-col tablet:flex-row w-full max-w-[1360px] items-start justify-between gap-8 tablet:gap-[64px_132px] pt-0 pb-8 tablet:pb-12 px-0 border-b border-[#6b8483]">
-        <img className="w-[180px] tablet:w-[200px] desktop:w-[236px]" alt="Logo" src="/group-10.svg" />
+        <img className="w-[180px] tablet:w-[200px] desktop:w-[236px]" alt="Logo" src="/Logo_en.svg" />
 
         <div className="flex flex-col w-full tablet:w-52 items-start justify-center gap-4 tablet:gap-6">
           <h3 className="w-fit mt-[-1.00px] font-h5 font-[number:var(--h5-font-weight)] text-white text-[length:var(--h5-font-size)] tracking-[var(--h5-letter-spacing)] leading-[var(--h5-line-height)] [font-style:var(--h5-font-style)]">
@@ -55,7 +55,7 @@ export const FooterSection = (): JSX.Element => {
           <img
             className="w-[120px] tablet:w-[138.07px] h-4 tablet:h-5"
             alt="FAB DAO logo"
-            src="/group-1.png"
+            src="/Fabdao-logo.png"
           />
         </div>
 
