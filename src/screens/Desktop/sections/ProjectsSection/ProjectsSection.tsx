@@ -267,10 +267,6 @@ export const ProjectsSection = (): JSX.Element => {
             </a>
           </nav>
 
-          <div className="[font-family:'DM_Sans',Helvetica] font-normal text-lg tablet:text-xl">
-            <span className="font-semibold text-[#179080]">EN</span>
-            <span className="text-[#093532]"> | CH</span>
-          </div>
         </div>
       </Card>
 
@@ -315,23 +311,6 @@ export const ProjectsSection = (): JSX.Element => {
             <h2 className="flex-1 font-h2 font-[number:var(--h2-font-weight)] text-[#093532] text-h2-mobile tablet:text-h2-tablet desktop:text-[length:var(--h2-font-size)] tracking-[var(--h2-letter-spacing)] leading-[var(--h2-line-height)] [font-style:var(--h2-font-style)]">
               Projects
             </h2>
-            <div className="flex items-start gap-2">
-              <Button className="bg-[#093532] rounded-md text-2xl font-medium [font-family:'DM_Sans',Helvetica] h-auto py-1">
-                ALL
-              </Button>
-              <Button
-                variant="outline"
-                className="border-[#093532] text-[#093532] rounded-md text-xl tablet:text-2xl font-medium [font-family:'DM_Sans',Helvetica] h-auto py-1"
-              >
-                Tag 1
-              </Button>
-              <Button
-                variant="outline"
-                className="border-[#093532] text-[#093532] rounded-md text-xl tablet:text-2xl font-medium [font-family:'DM_Sans',Helvetica] h-auto py-1"
-              >
-                Tag 2
-              </Button>
-            </div>
           </div>
 
           <div className="flex flex-col items-start gap-8 tablet:gap-10 desktop:gap-12 w-full">
