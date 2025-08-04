@@ -143,9 +143,7 @@ export const ProjectsSection = (): JSX.Element => {
               {/* Header with Logo and Close Button */}
               <div className="flex items-center justify-between p-4 bg-[#6b8483] rounded-b-3xl mx-4 mt-4 mb-8">
                 <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-[#179080] rounded-lg flex items-center justify-center">
-                    <div className="w-8 h-8 bg-white rounded-full"></div>
-                  </div>
+                  <img className="w-12 h-12" alt="Logo" src="/Logo_en.svg" />
                   <div className="flex flex-col">
                     <span className="text-white font-medium text-lg [font-family:'DM_Sans',Helvetica]">
                       GreenSofa
