@@ -232,8 +232,17 @@ export const ProjectsSection = (): JSX.Element => {
                   <span className="text-white font-normal text-lg [font-family:'DM_Sans',Helvetica]">
                     Powered by
                   </span>
+                  <img
+            className="w-[120px] tablet:w-[138.07px] h-4 tablet:h-5"
+            alt="FAB DAO logo"
+            src="/Fabdao-logo.svg"
+          />  
                   <span className="text-white font-bold text-xl [font-family:'DM_Sans',Helvetica]">
-                    FAB DAO
+              <img
+            className="w-[120px] tablet:w-[138.07px] h-4 tablet:h-5"
+            alt="FAB DAO logo"
+            src="/Fabdao-logo.svg"
+          />
                   </span>
                 </div>
                 <p className="text-white font-normal text-sm [font-family:'DM_Sans',Helvetica] text-center">
