@@ -50,7 +50,8 @@ export const FooterSection = (): JSX.Element => {
       <div className="flex flex-col tablet:flex-row w-full max-w-[1360px] items-start justify-between gap-4 tablet:gap-[8px_24px]">
         <div className="inline-flex items-center gap-2">
           <p className="w-fit mt-[-1.00px] [font-family:'Poppins',Helvetica] font-normal text-white text-sm tablet:text-base tracking-[0] leading-[normal]">
-            Powered by
+            Powered by Powered by
+FAB DAO
           </p>
           <img
             className="w-[120px] tablet:w-[138.07px] h-4 tablet:h-5"
