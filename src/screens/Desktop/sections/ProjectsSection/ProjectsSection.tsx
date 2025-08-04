@@ -119,10 +119,10 @@ export const ProjectsSection = (): JSX.Element => {
   ];
 
   return (
-    <div className="flex flex-col items-center gap-gap-mobile tablet:gap-gap-tablet desktop:gap-16 pt-6 pb-0 px-4 tablet:px-8 desktop:px-10 w-full">
+    <section className="flex flex-col items-center gap-gap-mobile tablet:gap-gap-tablet desktop:gap-16 pt-6 pb-0 px-4 tablet:px-8 desktop:px-10 w-full">
       {/* Navigation Bar */}
       <ScrollReveal>
-        <Card className="flex w-full max-w-[1360px] items-center gap-gap-mobile tablet:gap-gap-tablet desktop:gap-6 px-card-padding-mobile tablet:px-card-padding-tablet desktop:px-6 py-4 bg-white rounded-card-mobile tablet:rounded-card-tablet desktop:rounded-[20px]">
+        <Card className="flex w-full items-center gap-gap-mobile tablet:gap-gap-tablet desktop:gap-6 px-card-padding-mobile tablet:px-card-padding-tablet desktop:px-6 py-4 bg-white rounded-card-mobile tablet:rounded-card-tablet desktop:rounded-[20px]">
           <img className="w-56 h-14" alt="Group" src="/Logo_en.svg" />
 
           <div className="flex items-center justify-end gap-6 flex-1 relative">
@@ -273,7 +273,7 @@ export const ProjectsSection = (): JSX.Element => {
         </Card>
       </ScrollReveal>
 
-      <div className="flex flex-col items-start gap-12 tablet:gap-16 desktop:gap-20 w-full max-w-[1360px]">
+      <div className="flex flex-col items-start gap-12 tablet:gap-16 desktop:gap-20 w-full">
         {/* Header Section */}
         <ScrollReveal delay={200}>
           <div className="flex flex-col items-start gap-6 tablet:gap-8 desktop:gap-9 w-full">
@@ -482,6 +482,6 @@ export const ProjectsSection = (): JSX.Element => {
           </ScrollReveal>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

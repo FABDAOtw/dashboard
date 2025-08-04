@@ -20,7 +20,7 @@ export const FooterSection = (): JSX.Element => {
 
   return (
     <ScrollReveal>
-      <div className="flex flex-col w-full items-center gap-gap-mobile tablet:gap-gap-tablet desktop:gap-8 pt-8 tablet:pt-10 desktop:pt-12 pb-6 tablet:pb-8 px-4 tablet:px-8 desktop:px-10 bg-[#093532]">
+      <footer className="flex flex-col w-full items-center gap-gap-mobile tablet:gap-gap-tablet desktop:gap-8 pt-8 tablet:pt-10 desktop:pt-12 pb-6 tablet:pb-8 px-4 tablet:px-8 desktop:px-10 bg-[#093532]">
         <div className="flex flex-col tablet:flex-row w-full max-w-[1360px] items-start justify-between gap-8 tablet:gap-[64px_132px] pt-0 pb-8 tablet:pb-12 px-0 border-b border-[#6b8483]">
           <img className="w-[180px] tablet:w-[200px] desktop:w-[236px]" alt="Logo" src="/Logo_en.svg" />
 
@@ -65,7 +65,7 @@ export const FooterSection = (): JSX.Element => {
             ©FAB DAO. All Rights Reserved.
           </p>
         </div>
-      </div>
+      </footer>
     </ScrollReveal>
   );
 };

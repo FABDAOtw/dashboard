@@ -15,12 +15,12 @@ export const ScrollReveal: React.FC<ScrollRevealProps> = ({
   const elementRef = useScrollReveal();
 
   return (
-    <section
+    <div
       ref={elementRef}
-      className={`opacity-0 translate-y-8 transition-all duration-700 ease-out w-full ${className}`}
+      className={`opacity-0 translate-y-8 transition-all duration-700 ease-out ${className}`}
       style={{ transitionDelay: `${delay}ms` }}
     >
       {children}
-    </section>
+    </div>
   );
 };
