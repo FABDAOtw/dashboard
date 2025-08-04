@@ -55,7 +55,7 @@ export const FooterSection = (): JSX.Element => {
           <img
             className="w-[120px] tablet:w-[138.07px] h-4 tablet:h-5"
             alt="FAB DAO logo"
-            src="/Fabdao-logo.png"
+            src="/Fabdao-logo.svg"
           />
         </div>
 
