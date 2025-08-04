@@ -4,7 +4,7 @@ import { ProjectsSection } from "./sections/ProjectsSection/ProjectsSection";
 
 export const Desktop = (): JSX.Element => {
   return (
-    <div className="flex flex-col w-full max-w-[1440px] mx-auto bg-[#f5f3ee]">
+    <div className="flex flex-col w-full max-w-[1440px] mx-auto bg-[#F5F3EE]">
       <ProjectsSection />
       <FooterSection />
     </div>
