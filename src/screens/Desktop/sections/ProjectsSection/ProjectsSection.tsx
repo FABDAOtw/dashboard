@@ -361,7 +361,7 @@ export const ProjectsSection = (): JSX.Element => {
                             </div>
                           </div>
                         </div>
-                        <p className="h-auto tablet:h-[62px] font-body-1 font-[number:var(--body-1-font-weight)] text-[#093532] text-[length:var(--body-1-font-size)] tracking-[var(--body-1-letter-spacing)] leading-[var(--body-1-line-height)] overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-line-clamp:3] [-webkit-box-orient:vertical] [font-style:var(--body-1-font-style)]">
+                        <p className="h-[75px] font-body-1 font-[number:var(--body-1-font-weight)] text-[#093532] text-[length:var(--body-1-font-size)] tracking-[var(--body-1-letter-spacing)] leading-[var(--body-1-line-height)] overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-line-clamp:3] [-webkit-box-orient:vertical] [font-style:var(--body-1-font-style)]">
                           {project.description}
                         </p>
                       </div>
