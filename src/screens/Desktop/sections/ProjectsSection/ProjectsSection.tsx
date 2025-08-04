@@ -268,9 +268,9 @@ export const ProjectsSection = (): JSX.Element => {
         </div>
       </Card>
 
-      <div className="flex flex-col items-start gap-12 tablet:gap-16 desktop:gap-20 w-full">
+      <div className="flex flex-col items-start gap-8 tablet:gap-12 desktop:gap-16 w-full">
         {/* Header Section */}
-        <div className="flex flex-col items-start gap-6 tablet:gap-8 desktop:gap-9 w-full">
+        <div className="flex flex-col items-start gap-4 tablet:gap-6 desktop:gap-8 w-full">
           <div className="flex flex-col items-start gap-4 max-w-[1016px]">
             <h1 className="font-h2 font-[number:var(--h2-font-weight)] text-[#093532] text-h2-mobile tablet:text-h2-tablet desktop:text-[length:var(--h2-font-size)] tracking-[var(--h2-letter-spacing)] leading-[var(--h2-line-height)] [font-style:var(--h2-font-style)]">
               See the act. Track the fact
@@ -303,7 +303,7 @@ export const ProjectsSection = (): JSX.Element => {
         </div>
 
         {/* Projects Section */}
-        <div className="flex flex-col items-start gap-6 w-full">
+        <div className="flex flex-col items-start gap-4 w-full">
           {/* Projects Header and Filters */}
           <div className="flex flex-col tablet:flex-row tablet:items-center gap-4 tablet:gap-[26px] w-full">
             <h2 className="flex-1 font-h2 font-[number:var(--h2-font-weight)] text-[#093532] text-h2-mobile tablet:text-h2-tablet desktop:text-[length:var(--h2-font-size)] tracking-[var(--h2-letter-spacing)] leading-[var(--h2-line-height)] [font-style:var(--h2-font-style)]">
@@ -311,9 +311,9 @@ export const ProjectsSection = (): JSX.Element => {
             </h2>
           </div>
 
-          <div className="flex flex-col items-start gap-8 tablet:gap-10 desktop:gap-12 w-full">
+          <div className="flex flex-col items-start gap-6 tablet:gap-8 desktop:gap-10 w-full">
             {/* Featured Projects */}
-            <div className="flex flex-col items-start gap-6 w-full">
+            <div className="flex flex-col items-start gap-4 w-full">
               <h3 className="font-h4 font-[number:var(--h4-font-weight)] text-[#179080] text-h4-mobile tablet:text-h4-tablet desktop:text-[length:var(--h4-font-size)] tracking-[var(--h4-letter-spacing)] leading-[var(--h4-line-height)] [font-style:var(--h4-font-style)]">
                 Featured
               </h3>
@@ -383,7 +383,7 @@ export const ProjectsSection = (): JSX.Element => {
             </div>
 
             {/* Other Projects */}
-            <div className="flex flex-col items-start gap-6 w-full">
+            <div className="flex flex-col items-start gap-4 w-full">
               <h3 className="font-h4 font-[number:var(--h4-font-weight)] text-[#179080] text-h4-mobile tablet:text-h4-tablet desktop:text-[length:var(--h4-font-size)] tracking-[var(--h4-letter-spacing)] leading-[var(--h4-line-height)] [font-style:var(--h4-font-style)]">
                 Other projects
               </h3>
