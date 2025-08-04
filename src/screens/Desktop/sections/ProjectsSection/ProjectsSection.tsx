@@ -144,7 +144,14 @@ export const ProjectsSection = (): JSX.Element => {
               <div className="flex items-center justify-between p-4 bg-[#6b8483] rounded-b-3xl mx-4 mt-4 mb-8">
                 <div className="flex items-center gap-3">
                   <img className="w-12 h-12" alt="Logo" src="/Logo_en.svg" />
-
+                  <div className="flex flex-col">
+                    <span className="text-white font-medium text-lg [font-family:'DM_Sans',Helvetica]">
+                      GreenSofa
+                    </span>
+                    <span className="text-white font-bold text-xl [font-family:'DM_Sans',Helvetica]">
+                      Hypercerts
+                    </span>
+                  </div>
                 </div>
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}
