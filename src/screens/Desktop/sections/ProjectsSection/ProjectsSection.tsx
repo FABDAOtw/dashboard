@@ -237,8 +237,6 @@ export const ProjectsSection = (): JSX.Element => {
             alt="FAB DAO logo"
             src="/Fabdao-logo.svg"
           />  
-     
-                  </span>
                 </div>
                 <p className="text-white font-normal text-sm [font-family:'DM_Sans',Helvetica] text-center">
                   ©FAB DAO. All Rights Reserved.
