@@ -118,7 +118,7 @@ export const ProjectsSection = (): JSX.Element => {
   ];
 
   return (
-    <section className="flex flex-col items-center gap-gap-mobile tablet:gap-gap-tablet desktop:gap-16 pt-6 pb-0 px-4 tablet:px-8 desktop:px-10 w-full">
+    <section className="flex flex-col items-center gap-gap-mobile tablet:gap-gap-tablet desktop:gap-16 pt-6 pb-[120px] px-4 tablet:px-8 desktop:px-10 w-full">
       {/* Navigation Bar */}
       <Card className="flex w-full items-center gap-gap-mobile tablet:gap-gap-tablet desktop:gap-6 px-card-padding-mobile tablet:px-card-padding-tablet desktop:px-6 py-4 bg-white rounded-card-mobile tablet:rounded-card-tablet desktop:rounded-[20px]">
         <img className="w-56 h-14" alt="Group" src="/Logo_en.svg" />
