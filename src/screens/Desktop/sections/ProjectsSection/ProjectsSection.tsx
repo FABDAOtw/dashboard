@@ -348,11 +348,9 @@ export const ProjectsSection = (): JSX.Element => {
                               <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#2a6355] text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)]">
                                 {project.startDate}
                               </div>
-                              <img
-                                className="w-[16.48px] h-[9.36px]"
-                                alt="Date separator"
-                                src="/-.svg"
-                              />
+                              <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.8 9.80531C10.6267 8.09865 11.4 6.81865 12.12 5.96531H0V4.28531H12.12C11.4 3.43198 10.6267 2.15198 9.8 0.445312H11.2C12.8533 2.39198 14.6133 3.83198 16.48 4.76531V5.48531C14.6133 6.39198 12.8533 7.83198 11.2 9.80531H9.8Z" fill="#6B8483"/>
+                              </svg>
                               <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#2a6355] text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)]">
                                 {project.endDate}
                               </div>
@@ -414,11 +412,9 @@ export const ProjectsSection = (): JSX.Element => {
                             <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#6b8483] text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)]">
                               {project.startDate}
                             </div>
-                            <img
-                              className="w-[16.48px] h-[9.36px]"
-                              alt="Date separator"
-                              src="/-.svg"
-                            />
+                            <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M9.8 9.80531C10.6267 8.09865 11.4 6.81865 12.12 5.96531H0V4.28531H12.12C11.4 3.43198 10.6267 2.15198 9.8 0.445312H11.2C12.8533 2.39198 14.6133 3.83198 16.48 4.76531V5.48531C14.6133 6.39198 12.8533 7.83198 11.2 9.80531H9.8Z" fill="#6B8483"/>
+                            </svg>
                             <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#6b8483] text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)]">
                               {project.endDate}
                             </div>
