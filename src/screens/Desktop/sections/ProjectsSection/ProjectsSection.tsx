@@ -326,7 +326,7 @@ export const ProjectsSection = (): JSX.Element => {
                   >
                     <div 
                       className="flex h-[360px] justify-center items-start gap-2 self-stretch aspect-[149/80] group-hover:saturate-0 transition-all duration-300"
-                      style={{ background: `url(/hypercert.webp) lightgray 50% / cover no-repeat` }}
+                      style={{ background: `url(/hypercert.webp) lightgray top / cover no-repeat` }}
                     />
                     <CardContent className="flex flex-col items-start gap-3 p-card-padding-mobile tablet:p-card-padding-tablet desktop:p-6 w-full -mt-6 tablet:-mt-8 desktop:-mt-12 bg-white group-hover:bg-[#093532] rounded-card-mobile tablet:rounded-card-tablet desktop:rounded-[20px_20px_0px_0px] transition-all duration-300">
                       <div className="flex flex-col items-start gap-2 w-full">
