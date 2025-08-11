@@ -141,7 +141,7 @@ export const ProjectsSection = (): JSX.Element => {
           {isMobileMenuOpen && (
             <div className="tablet:hidden fixed inset-0 bg-[#093532] z-50 flex flex-col">
               {/* Header with Logo and Close Button */}
-              <div className="flex items-center justify-between p-4 bg-[#6b8483] rounded-b-3xl mx-4 mt-4 mb-8">
+              <div className="flex items-center justify-between p-4 bg-[#6b8483] rounded-b-[20px] mx-4 mt-4 mb-8">
                 <div className="flex items-center gap-3">
                   <img className="w-12 h-12" alt="Logo" src="/Logo_en.svg" />
                   <div className="flex flex-col">
