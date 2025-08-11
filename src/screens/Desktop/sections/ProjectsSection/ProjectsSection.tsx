@@ -332,6 +332,7 @@ export const ProjectsSection = (): JSX.Element => {
                       />
                     </div>
                     <CardContent className="flex flex-col items-start gap-3 p-card-padding-mobile tablet:p-card-padding-tablet desktop:p-6 w-full -mt-6 tablet:-mt-8 desktop:-mt-12 bg-white group-hover:bg-[#093532] rounded-card-mobile tablet:rounded-card-tablet desktop:rounded-[20px_20px_0px_0px] transition-all duration-300">
+                    <CardContent className="flex flex-col items-start gap-3 pt-6 p-card-padding-mobile tablet:p-card-padding-tablet desktop:p-6 w-full -mt-6 tablet:-mt-8 desktop:-mt-12 bg-white group-hover:bg-[#093532] rounded-card-mobile tablet:rounded-card-tablet desktop:rounded-[20px_20px_0px_0px] transition-all duration-300">
                       <div className="flex flex-col items-start gap-2 w-full">
                         <div className="flex flex-col items-start justify-center gap-2 pb-2 w-full">
                           <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#093532] group-hover:text-white text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)] transition-colors duration-300">
@@ -400,6 +401,7 @@ export const ProjectsSection = (): JSX.Element => {
                       />
                     </div>
                     <CardContent className="flex flex-col items-start gap-3 p-card-padding-mobile tablet:p-card-padding-tablet desktop:p-6 w-full -mt-4 tablet:-mt-6 desktop:-mt-7 bg-white group-hover:bg-[#093532] rounded-card-mobile tablet:rounded-card-tablet desktop:rounded-[20px_20px_0px_0px] transition-all duration-300">
+                    <CardContent className="flex flex-col items-start gap-3 pt-6 p-card-padding-mobile tablet:p-card-padding-tablet desktop:p-6 w-full -mt-4 tablet:-mt-6 desktop:-mt-7 bg-white group-hover:bg-[#093532] rounded-card-mobile tablet:rounded-card-tablet desktop:rounded-[20px_20px_0px_0px] transition-all duration-300">
                       <div className="flex flex-col items-start justify-center gap-2 pb-2 w-full">
                         <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#093532] group-hover:text-white text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)] transition-colors duration-300">
                           {project.org}
