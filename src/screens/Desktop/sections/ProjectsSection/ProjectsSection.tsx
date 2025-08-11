@@ -24,7 +24,7 @@ export const ProjectsSection = (): JSX.Element => {
   // Featured projects data
   const featuredProjects = [
     {
-      image: "/image-34.png",
+      image: "/hypercert.webp",
       org: "[Name of the org]",
       title: "Tamagochi at Riverside",
       startDate: "2024/10/09",
@@ -34,7 +34,7 @@ export const ProjectsSection = (): JSX.Element => {
       tags: ["FABDAO", "ART"],
     },
     {
-      image: "/image-34-1.png",
+      image: "/hypercert.webp",
       org: "[Name of the org]",
       title: "Tamagochi at Riverside",
       startDate: "2024/10/09",
@@ -44,7 +44,7 @@ export const ProjectsSection = (): JSX.Element => {
       tags: ["FABDAO", "ART"],
     },
     {
-      image: "/image-34-8.png",
+      image: "/hypercert.webp",
       org: "[Name of the org]",
       title: "Tamagochi at Riverside",
       startDate: "2024/10/09",
@@ -54,7 +54,7 @@ export const ProjectsSection = (): JSX.Element => {
       tags: ["FABDAO", "ART"],
     },
     {
-      image: "/image-34-3.png",
+      image: "/hypercert.webp",
       org: "[Name of the org]",
       title: "Tamagochi at Riverside",
       startDate: "2024/10/09",
@@ -68,7 +68,7 @@ export const ProjectsSection = (): JSX.Element => {
   // Other projects data
   const otherProjects = [
     {
-      image: "/image-34-4.png",
+      image: "/hypercert.webp",
       org: "[Name of the org]",
       title: "Tamagochi at Riverside",
       startDate: "2024/10/09",
@@ -76,7 +76,7 @@ export const ProjectsSection = (): JSX.Element => {
       tags: ["FABDAO", "ART"],
     },
     {
-      image: "/image-34-5.png",
+      image: "/hypercert.webp",
       org: "[Name of the org]",
       title: "Tamagochi at Riverside",
       startDate: "2024/10/09",
@@ -84,7 +84,7 @@ export const ProjectsSection = (): JSX.Element => {
       tags: ["FABDAO", "ART"],
     },
     {
-      image: "/image-34-6.png",
+      image: "/hypercert.webp",
       org: "[Name of the org]",
       title: "Tamagochi at Riverside",
       startDate: "2024/10/09",
@@ -92,7 +92,7 @@ export const ProjectsSection = (): JSX.Element => {
       tags: ["FABDAO", "ART"],
     },
     {
-      image: "/image-34-7.png",
+      image: "/hypercert.webp",
       org: "[Name of the org]",
       title: "Tamagochi at Riverside",
       startDate: "2024/10/09",
@@ -100,7 +100,7 @@ export const ProjectsSection = (): JSX.Element => {
       tags: ["FABDAO", "ART"],
     },
     {
-      image: "/image-34-8.png",
+      image: "/hypercert.webp",
       org: "[Name of the org]",
       title: "Tamagochi at Riverside",
       startDate: "2024/10/09",
@@ -108,7 +108,7 @@ export const ProjectsSection = (): JSX.Element => {
       tags: ["FABDAO", "ART"],
     },
     {
-      image: "/image-34-9.png",
+      image: "/hypercert.webp",
       org: "[Name of the org]",
       title: "Tamagochi at Riverside",
       startDate: "2024/10/09",
