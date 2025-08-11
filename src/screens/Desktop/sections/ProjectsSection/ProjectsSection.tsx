@@ -322,42 +322,42 @@ export const ProjectsSection = (): JSX.Element => {
                 {featuredProjects.map((project, index) => (
                   <Card
                     key={index}
-                    className="flex flex-col min-w-featured-mobile tablet:min-w-featured-tablet desktop:min-w-featured-desktop max-w-featured-mobile tablet:max-w-featured-tablet desktop:max-w-featured-desktop flex-1 bg-white rounded-featured-mobile tablet:rounded-featured-tablet desktop:rounded-[40px_40px_20px_20px] overflow-hidden border-2 border-solid border-[#f5f3ee]"
+                    className="flex flex-col min-w-featured-mobile tablet:min-w-featured-tablet desktop:min-w-featured-desktop max-w-featured-mobile tablet:max-w-featured-tablet desktop:max-w-featured-desktop flex-1 bg-white rounded-featured-mobile tablet:rounded-featured-tablet desktop:rounded-[40px_40px_20px_20px] overflow-hidden border-2 border-solid border-[#f5f3ee] hover:border-[#093532] transition-all duration-300 group cursor-pointer"
                   >
                     <div className="h-[200px] tablet:h-[280px] desktop:h-[358.66px] w-full overflow-hidden flex justify-center">
                       <img
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover group-hover:saturate-0 transition-all duration-300"
                         alt="Project image"
                         src={project.image}
                       />
                     </div>
-                    <CardContent className="flex flex-col items-start gap-3 p-card-padding-mobile tablet:p-card-padding-tablet desktop:p-6 w-full -mt-6 tablet:-mt-8 desktop:-mt-12 bg-white rounded-card-mobile tablet:rounded-card-tablet desktop:rounded-[20px_20px_0px_0px]">
+                    <CardContent className="flex flex-col items-start gap-3 p-card-padding-mobile tablet:p-card-padding-tablet desktop:p-6 w-full -mt-6 tablet:-mt-8 desktop:-mt-12 bg-white group-hover:bg-[#093532] rounded-card-mobile tablet:rounded-card-tablet desktop:rounded-[20px_20px_0px_0px] transition-all duration-300">
                       <div className="flex flex-col items-start gap-2 w-full">
                         <div className="flex flex-col items-start justify-center gap-2 pb-2 w-full">
-                          <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#093532] text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)]">
+                          <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#093532] group-hover:text-white text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)] transition-colors duration-300">
                             {project.org}
                           </div>
-                          <h4 className="font-h5 font-[number:var(--h5-font-weight)] text-[#093532] text-h5-mobile tablet:text-h5-tablet desktop:text-[length:var(--h5-font-size)] tracking-[var(--h5-letter-spacing)] leading-[var(--h5-line-height)] overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-line-clamp:2] [-webkit-box-orient:vertical] [font-style:var(--h5-font-style)]">
+                          <h4 className="font-h5 font-[number:var(--h5-font-weight)] text-[#093532] group-hover:text-white text-h5-mobile tablet:text-h5-tablet desktop:text-[length:var(--h5-font-size)] tracking-[var(--h5-letter-spacing)] leading-[var(--h5-line-height)] overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-line-clamp:2] [-webkit-box-orient:vertical] [font-style:var(--h5-font-style)] transition-colors duration-300">
                             {project.title}
                           </h4>
                           <div className="flex flex-wrap items-start gap-2 w-full">
-                            <div className="font-body-1 font-[number:var(--body-1-font-weight)] text-[#6b8483] text-[length:var(--body-1-font-size)] tracking-[var(--body-1-letter-spacing)] leading-[var(--body-1-line-height)] [font-style:var(--body-1-font-style)]">
+                            <div className="font-body-1 font-[number:var(--body-1-font-weight)] text-[#6b8483] group-hover:text-white text-[length:var(--body-1-font-size)] tracking-[var(--body-1-letter-spacing)] leading-[var(--body-1-line-height)] [font-style:var(--body-1-font-style)] transition-colors duration-300">
                               Timeline
                             </div>
                             <div className="flex items-center gap-2">
-                              <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#2a6355] text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)]">
+                              <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#2a6355] group-hover:text-white text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)] transition-colors duration-300">
                                 {project.startDate}
                               </div>
-                              <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg" className="group-hover:[&>path]:fill-white transition-all duration-300">
                                 <path d="M9.8 9.80531C10.6267 8.09865 11.4 6.81865 12.12 5.96531H0V4.28531H12.12C11.4 3.43198 10.6267 2.15198 9.8 0.445312H11.2C12.8533 2.39198 14.6133 3.83198 16.48 4.76531V5.48531C14.6133 6.39198 12.8533 7.83198 11.2 9.80531H9.8Z" fill="#6B8483"/>
                               </svg>
-                              <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#2a6355] text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)]">
+                              <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#2a6355] group-hover:text-white text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)] transition-colors duration-300">
                                 {project.endDate}
                               </div>
                             </div>
                           </div>
                         </div>
-                        <p className="h-[75px] font-body-1 font-[number:var(--body-1-font-weight)] text-[#093532] text-[length:var(--body-1-font-size)] tracking-[var(--body-1-letter-spacing)] leading-[var(--body-1-line-height)] overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-line-clamp:3] [-webkit-box-orient:vertical] [font-style:var(--body-1-font-style)]">
+                        <p className="h-[75px] font-body-1 font-[number:var(--body-1-font-weight)] text-[#093532] group-hover:text-white text-[length:var(--body-1-font-size)] tracking-[var(--body-1-letter-spacing)] leading-[var(--body-1-line-height)] overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-line-clamp:3] [-webkit-box-orient:vertical] [font-style:var(--body-1-font-style)] transition-colors duration-300">
                           {project.description}
                         </p>
                       </div>
@@ -366,9 +366,9 @@ export const ProjectsSection = (): JSX.Element => {
                           <Badge
                             key={tagIndex}
                             variant="outline"
-                            className="px-2 py-1 rounded-md border-[#093532] bg-transparent"
+                            className="px-2 py-1 rounded-md border-[#093532] group-hover:border-white bg-transparent transition-colors duration-300"
                           >
-                            <span className="font-body-1 font-[number:var(--body-1-font-weight)] text-[#093532] text-[length:var(--body-1-font-size)] tracking-[var(--body-1-letter-spacing)] leading-[var(--body-1-line-height)] [font-style:var(--body-1-font-style)]">
+                            <span className="font-body-1 font-[number:var(--body-1-font-weight)] text-[#093532] group-hover:text-white text-[length:var(--body-1-font-size)] tracking-[var(--body-1-letter-spacing)] leading-[var(--body-1-line-height)] [font-style:var(--body-1-font-style)] transition-colors duration-300">
                               {tag}
                             </span>
                           </Badge>
@@ -390,32 +390,32 @@ export const ProjectsSection = (): JSX.Element => {
                 {otherProjects.map((project, index) => (
                   <Card
                     key={index}
-                    className="flex flex-col min-w-card-mobile tablet:min-w-card-tablet desktop:min-w-card-desktop max-w-card-mobile tablet:max-w-card-tablet desktop:max-w-card-desktop flex-1 bg-white rounded-card-mobile tablet:rounded-card-tablet desktop:rounded-[40px_40px_20px_20px] overflow-hidden border-2 border-solid border-[#f5f3ee]"
+                    className="flex flex-col min-w-card-mobile tablet:min-w-card-tablet desktop:min-w-card-desktop max-w-card-mobile tablet:max-w-card-tablet desktop:max-w-card-desktop flex-1 bg-white rounded-card-mobile tablet:rounded-card-tablet desktop:rounded-[40px_40px_20px_20px] overflow-hidden border-2 border-solid border-[#f5f3ee] hover:border-[#093532] transition-all duration-300 group cursor-pointer"
                   >
                     <div className="h-[150px] tablet:h-[200px] desktop:h-[234.81px] w-full overflow-hidden flex justify-center">
                       <img
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover group-hover:saturate-0 transition-all duration-300"
                         alt="Project image"
                         src={project.image}
                       />
                     </div>
-                    <CardContent className="flex flex-col items-start gap-3 p-card-padding-mobile tablet:p-card-padding-tablet desktop:p-6 w-full -mt-4 tablet:-mt-6 desktop:-mt-7 bg-white rounded-card-mobile tablet:rounded-card-tablet desktop:rounded-[20px_20px_0px_0px]">
+                    <CardContent className="flex flex-col items-start gap-3 p-card-padding-mobile tablet:p-card-padding-tablet desktop:p-6 w-full -mt-4 tablet:-mt-6 desktop:-mt-7 bg-white group-hover:bg-[#093532] rounded-card-mobile tablet:rounded-card-tablet desktop:rounded-[20px_20px_0px_0px] transition-all duration-300">
                       <div className="flex flex-col items-start justify-center gap-2 pb-2 w-full">
-                        <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#093532] text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)]">
+                        <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#093532] group-hover:text-white text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)] transition-colors duration-300">
                           {project.org}
                         </div>
-                        <h4 className="font-h5 font-[number:var(--h5-font-weight)] text-[#093532] text-h5-mobile tablet:text-h5-tablet desktop:text-[length:var(--h5-font-size)] tracking-[var(--h5-letter-spacing)] leading-[var(--h5-line-height)] overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-line-clamp:2] [-webkit-box-orient:vertical] [font-style:var(--h5-font-style)]">
+                        <h4 className="font-h5 font-[number:var(--h5-font-weight)] text-[#093532] group-hover:text-white text-h5-mobile tablet:text-h5-tablet desktop:text-[length:var(--h5-font-size)] tracking-[var(--h5-letter-spacing)] leading-[var(--h5-line-height)] overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-line-clamp:2] [-webkit-box-orient:vertical] [font-style:var(--h5-font-style)] transition-colors duration-300">
                           {project.title}
                         </h4>
                         <div className="flex flex-wrap items-start gap-2 w-full">
                           <div className="flex items-center gap-2">
-                            <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#6b8483] text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)]">
+                            <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#6b8483] group-hover:text-white text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)] transition-colors duration-300">
                               {project.startDate}
                             </div>
-                            <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg" className="group-hover:[&>path]:fill-white transition-all duration-300">
                               <path d="M9.8 9.80531C10.6267 8.09865 11.4 6.81865 12.12 5.96531H0V4.28531H12.12C11.4 3.43198 10.6267 2.15198 9.8 0.445312H11.2C12.8533 2.39198 14.6133 3.83198 16.48 4.76531V5.48531C14.6133 6.39198 12.8533 7.83198 11.2 9.80531H9.8Z" fill="#6B8483"/>
                             </svg>
-                            <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#6b8483] text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)]">
+                            <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#6b8483] group-hover:text-white text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)] transition-colors duration-300">
                               {project.endDate}
                             </div>
                           </div>
@@ -426,9 +426,9 @@ export const ProjectsSection = (): JSX.Element => {
                           <Badge
                             key={tagIndex}
                             variant="outline"
-                            className="px-2 py-1 rounded-md border-[#093532] bg-transparent"
+                            className="px-2 py-1 rounded-md border-[#093532] group-hover:border-white bg-transparent transition-colors duration-300"
                           >
-                            <span className="font-body-1 font-[number:var(--body-1-font-weight)] text-[#093532] text-[length:var(--body-1-font-size)] tracking-[var(--body-1-letter-spacing)] leading-[var(--body-1-line-height)] [font-style:var(--body-1-font-style)]">
+                            <span className="font-body-1 font-[number:var(--body-1-font-weight)] text-[#093532] group-hover:text-white text-[length:var(--body-1-font-size)] tracking-[var(--body-1-letter-spacing)] leading-[var(--body-1-line-height)] [font-style:var(--body-1-font-style)] transition-colors duration-300">
                               {tag}
                             </span>
                           </Badge>
