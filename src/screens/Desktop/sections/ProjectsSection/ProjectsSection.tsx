@@ -447,9 +447,6 @@ export const ProjectsSection = (): JSX.Element => {
 
           {/* Pagination */}
           <div className="flex items-center justify-center gap-2 w-full">
-            <div className="font-subtitle-1 font-[number:var(--subtitle-1-font-weight)] text-[#093532] text-subtitle1-mobile tablet:text-subtitle1-tablet desktop:text-[length:var(--subtitle-1-font-size)] tracking-[var(--subtitle-1-letter-spacing)] leading-[var(--subtitle-1-line-height)] [font-style:var(--subtitle-1-font-style)]">
-              PAGE
-            </div>
             <Pagination>
               <PaginationContent className="flex items-center gap-2">
                 <PaginationItem>
