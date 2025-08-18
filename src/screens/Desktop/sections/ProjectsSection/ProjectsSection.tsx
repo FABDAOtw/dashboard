@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Badge } from "../../../../components/ui/badge";
 import { Button } from "../../../../components/ui/button";
@@ -12,6 +13,7 @@ import {
 
 export const ProjectsSection = (): JSX.Element => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+  const navigate = useNavigate();
 
   // Stats data
   const statsData = [
@@ -323,6 +325,7 @@ export const ProjectsSection = (): JSX.Element => {
                   <Card
                     key={index}
                     className="flex flex-col min-w-featured-mobile tablet:min-w-featured-tablet desktop:min-w-featured-desktop max-w-featured-mobile tablet:max-w-featured-tablet desktop:max-w-featured-desktop flex-1 bg-white rounded-featured-mobile tablet:rounded-featured-tablet desktop:rounded-[40px_40px_20px_20px] overflow-hidden border-2 border-solid border-[#f5f3ee] hover:border-[#093532] transition-all duration-300 group cursor-pointer"
+                    onClick={() => navigate(`/project/featured-${index + 1}`)}
                   >
                     <div 
                       className="flex h-[360px] justify-center items-start gap-2 self-stretch aspect-[149/80] group-hover:saturate-0 transition-all duration-300"
@@ -388,6 +391,7 @@ export const ProjectsSection = (): JSX.Element => {
                   <Card
                     key={index}
                     className="flex flex-col min-w-card-mobile tablet:min-w-card-tablet desktop:min-w-card-desktop max-w-card-mobile tablet:max-w-card-tablet desktop:max-w-card-desktop flex-1 bg-white rounded-card-mobile tablet:rounded-card-tablet desktop:rounded-[40px_40px_20px_20px] overflow-hidden border-2 border-solid border-[#f5f3ee] hover:border-[#093532] transition-all duration-300 group cursor-pointer"
+                    onClick={() => navigate(`/project/other-${index + 1}`)}
                   >
                     <div 
                       className="h-[150px] tablet:h-[200px] desktop:h-[234.81px] w-full overflow-hidden flex justify-center items-start group-hover:saturate-0 transition-all duration-300"
