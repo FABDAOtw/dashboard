@@ -1,5 +1,7 @@
 import React from "react";
+import { ExternalLink } from "lucide-react";
 import { FooterSection } from "../Desktop/sections/FooterSection";
+import { Badge } from "../../components/ui/badge";
 
 export const About = (): JSX.Element => {
   return (
