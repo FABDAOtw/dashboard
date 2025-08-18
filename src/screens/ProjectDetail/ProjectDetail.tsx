@@ -15,12 +15,12 @@ export const ProjectDetail = (): JSX.Element => {
   const project = {
     id: id,
     image: "/hypercert.webp",
-    title: "Tamagochi at Riverside",
+    title: "FAB DAO第二期購藏執行",
     timeOfWork: "Oct. 09, 2024 → Dec. 09, 2024",
-    projectTitle: "Tamagochi at Riverside",
+    projectTitle: "FAB DAO第二期購藏執行",
     timeline: "March 2023 – December 2023",
     location: "Huangxi River Corridor, Tianmu District, Taipei City, Taiwan",
-    summary: "This project combines environmental education with Web3 tools to reconnect urban residents with the Huangxi River(Formal name: Southern Sulfur creek) in Taipei. In partnership with Formosa Art Bank DAO (FAB DAO), the Huangxi...",
+    summary: "FAB DAO，全名 Formosa Art Bank DAO，為公益 NFT 自治組織，集結跨域組織與個人，開創臺灣 NFT 結合公益、藝術、文化的新篇章。感謝Yii慷慨捐贈群島資料庫 No.1~10給FAB DAO藝術銀行",
     exploreUrl: "https://hypercerts.org/app/view#claimId=0x822f17a9a5eecfd66dbaff7946a8071c265d1d07-442341478564487395328",
     verifiedBy: "0x2914...29D2rg",
     verifiedOn: "May 01, 2025",
@@ -180,69 +180,71 @@ export const ProjectDetail = (): JSX.Element => {
           </Card>
         </section>
 
-        {/* Hero Section */}
-        <div className="relative w-full h-[400px] tablet:h-[500px] desktop:h-[600px] overflow-hidden">
-          {/* Background Image */}
-          <div 
-            className="absolute inset-0 w-full h-full"
-            style={{ 
-              background: `linear-gradient(180deg, rgba(179, 230, 218, 0.8) 0%, rgba(179, 230, 218, 0.6) 100%), url(/hypercert.webp) center/cover no-repeat`,
-            }}
-          />
-          
-          {/* Logo positioned in top left */}
-          <div className="absolute top-6 tablet:top-8 desktop:top-12 left-4 tablet:left-8 desktop:left-10">
-            <div className="w-16 h-16 tablet:w-20 tablet:h-20 desktop:w-24 desktop:h-24 rounded-full bg-[#179080] flex items-center justify-center">
-              <img className="w-10 h-10 tablet:w-12 tablet:h-12 desktop:w-14 desktop:h-14" alt="Logo" src="/Logo_en.svg" />
-            </div>
-          </div>
-
-          {/* Content positioned at bottom */}
-          <div className="absolute bottom-0 left-0 right-0 bg-white rounded-t-[40px] tablet:rounded-t-[50px] desktop:rounded-t-[60px] px-4 tablet:px-8 desktop:px-10 pt-8 tablet:pt-10 desktop:pt-12 pb-6 tablet:pb-8 desktop:pb-10">
-            <div className="max-w-[800px]">
-              <h1 className="font-h2 font-[number:var(--h2-font-weight)] text-[#093532] text-h2-mobile tablet:text-h2-tablet desktop:text-[length:var(--h2-font-size)] tracking-[var(--h2-letter-spacing)] leading-[var(--h2-line-height)] [font-style:var(--h2-font-style)] mb-4 tablet:mb-6">
-                {project.title}
-              </h1>
-              
-              <div className="flex items-center gap-2 mb-6 tablet:mb-8">
-                <div className="font-body-1 font-[number:var(--body-1-font-weight)] text-[#6b8483] text-[length:var(--body-1-font-size)] tracking-[var(--body-1-letter-spacing)] leading-[var(--body-1-line-height)] [font-style:var(--body-1-font-style)]">
-                  Time of work
-                </div>
-                <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#093532] text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)]">
-                  {project.timeOfWork}
-                </div>
+        {/* Hero Section with Card Image */}
+        <div className="relative w-full h-[400px] tablet:h-[500px] desktop:h-[600px] overflow-hidden px-4 tablet:px-8 desktop:px-10 mb-8">
+          <div className="relative w-full h-full max-w-[800px] mx-auto">
+            {/* Card Image with rounded corners and green tint */}
+            <div 
+              className="absolute inset-0 w-full h-full rounded-[20px] tablet:rounded-[30px] desktop:rounded-[40px] overflow-hidden"
+              style={{ 
+                background: `linear-gradient(180deg, rgba(179, 230, 218, 0.3) 0%, rgba(179, 230, 218, 0.5) 100%), url(/hypercert.webp) center/cover no-repeat`,
+              }}
+            />
+            
+            {/* Logo positioned in top left */}
+            <div className="absolute top-6 tablet:top-8 desktop:top-12 left-6 tablet:left-8 desktop:left-12">
+              <div className="w-12 h-12 tablet:w-16 tablet:h-16 desktop:w-20 desktop:h-20 rounded-full bg-[#179080] flex items-center justify-center">
+                <img className="w-6 h-6 tablet:w-8 tablet:h-8 desktop:w-10 desktop:h-10" alt="Logo" src="/Logo_en.svg" />
               </div>
+            </div>
 
-              {/* Social Icons */}
-              <div className="flex items-center gap-4">
-                <a
-                  href="https://discord.gg/R5tfebnnpm"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 tablet:w-12 tablet:h-12 rounded-full bg-[#6b8483] hover:bg-[#093532] transition-colors duration-300 flex items-center justify-center"
-                >
-                  <Globe className="w-5 h-5 text-white" />
-                </a>
-                <a
-                  href="https://x.com/GreenSofa_TW"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 tablet:w-12 tablet:h-12 rounded-full bg-[#6b8483] hover:bg-[#093532] transition-colors duration-300 flex items-center justify-center"
-                >
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="white"/>
-                  </svg>
-                </a>
-                <a
-                  href="https://www.facebook.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 tablet:w-12 tablet:h-12 rounded-full bg-[#6b8483] hover:bg-[#093532] transition-colors duration-300 flex items-center justify-center"
-                >
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="white"/>
-                  </svg>
-                </a>
+            {/* Content positioned at bottom */}
+            <div className="absolute bottom-0 left-0 right-0 bg-white rounded-t-[30px] tablet:rounded-t-[40px] desktop:rounded-t-[50px] px-6 tablet:px-8 desktop:px-12 pt-6 tablet:pt-8 desktop:pt-10 pb-4 tablet:pb-6 desktop:pb-8">
+              <div className="max-w-[600px]">
+                <h1 className="font-h2 font-[number:var(--h2-font-weight)] text-[#093532] text-h2-mobile tablet:text-h2-tablet desktop:text-[length:var(--h2-font-size)] tracking-[var(--h2-letter-spacing)] leading-[var(--h2-line-height)] [font-style:var(--h2-font-style)] mb-4 tablet:mb-6">
+                  {project.title}
+                </h1>
+                
+                <div className="flex items-center gap-2 mb-6 tablet:mb-8">
+                  <div className="font-body-1 font-[number:var(--body-1-font-weight)] text-[#6b8483] text-[length:var(--body-1-font-size)] tracking-[var(--body-1-letter-spacing)] leading-[var(--body-1-line-height)] [font-style:var(--body-1-font-style)]">
+                    Time of work
+                  </div>
+                  <div className="font-subtitle-2 font-[number:var(--subtitle-2-font-weight)] text-[#093532] text-[length:var(--subtitle-2-font-size)] tracking-[var(--subtitle-2-letter-spacing)] leading-[var(--subtitle-2-line-height)] [font-style:var(--subtitle-2-font-style)]">
+                    {project.timeOfWork}
+                  </div>
+                </div>
+
+                {/* Social Icons */}
+                <div className="flex items-center gap-4">
+                  <a
+                    href="https://discord.gg/R5tfebnnpm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 tablet:w-12 tablet:h-12 rounded-full bg-[#6b8483] hover:bg-[#093532] transition-colors duration-300 flex items-center justify-center"
+                  >
+                    <Globe className="w-5 h-5 text-white" />
+                  </a>
+                  <a
+                    href="https://x.com/GreenSofa_TW"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 tablet:w-12 tablet:h-12 rounded-full bg-[#6b8483] hover:bg-[#093532] transition-colors duration-300 flex items-center justify-center"
+                  >
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="white"/>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://www.facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 tablet:w-12 tablet:h-12 rounded-full bg-[#6b8483] hover:bg-[#093532] transition-colors duration-300 flex items-center justify-center"
+                  >
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="white"/>
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
