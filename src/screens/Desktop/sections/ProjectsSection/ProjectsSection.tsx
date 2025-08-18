@@ -174,7 +174,7 @@ export const ProjectsSection = (): JSX.Element => {
                   Projects
                 </a>
                 <a
-                  href="#"
+                  href="/about"
                   className="text-[#179080] font-bold text-4xl [font-family:'DM_Sans',Helvetica] py-6 border-b border-[#6b8483]/30"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
@@ -254,7 +254,7 @@ export const ProjectsSection = (): JSX.Element => {
               Projects
             </a>
             <a
-              href="#"
+              href="/about"
               className="font-normal text-[#093532] text-lg tablet:text-xl [font-family:'DM_Sans',Helvetica]"
             >
               About
